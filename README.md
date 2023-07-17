@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-    message, err := greetings.Hello("Alex")
+    message, err := greetings.Hello("Luis")
 
     if err != nil {
         fmt.Println("Ocurrió un error:", err)
@@ -31,4 +31,4 @@ func main() {
 }
 
 ```
-Este ejemplo importa el paquete github.com/alexroel/greetings y llama a la función Hello para obtener un saludo personalizado. Si ocurre un error, se imprime un mensaje de error.
+Este ejemplo importa el paquete github.com/LuisAlfonsoPonce/greetings y llama a la función Hello para obtener un saludo personalizado. Si ocurre un error, se imprime un mensaje de error.
